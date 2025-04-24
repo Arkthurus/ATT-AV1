@@ -2,7 +2,7 @@
 Atividade Avaliativa 1 
 
 
-INTEGRABTES:
+INTEGRANTES:
 
 Arthur João Padilha Conci
 
