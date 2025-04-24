@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2", "ex2\ex2.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3", "ex3\ex3.csproj", "{3A41153E-E451-42DB-94AA-5A2BDA3EE5FA}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma de Números Pares de Um Array", "07 - Soma de Números Pares de Um Array\Soma de Números Pares de Um Array.csproj", "{38C8C4C6-0AFA-41B2-9657-B603400BDC8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma de Números Pares de Um Array", "07 - Soma de Números Pares de Um Array\Soma de Números Pares de Um Array.csproj", "{E0D60E35-0C56-4FDA-8CF6-E4E5F95E8C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cálculo de IMC com Classificacão", "08 - Cálculo de IMC com Classificacão\Cálculo de IMC com Classificacão.csproj", "{54195A8F-250B-4C84-86C3-C265AD8C8ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo da adivinhação", "09 - Jogo da adivinhação\Jogo da adivinhação.csproj", "{F4B6F805-1D5D-4DFB-9709-AB52B163A7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "10 - Lista de Tarefas(To-Do List)\TodoList.csproj", "{13D698E8-B441-4FF6-8074-B36F3475B370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
