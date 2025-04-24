@@ -9,8 +9,8 @@ Atividade Avaliativa 1 para a Matéria de Tópicos Especiais de Sistemas, Univer
 - Thiago Amaral Costa
 
 ## EXERCICIOS COMENTATOS/DETALHADOS:
-- 1
-- x
+- 1 - Validador de Senhas Fortes 
+- 2 - Tabuada Completa em Laço FOR
 
 ## EXERCÍCIOS RESOLVIDOS:
 
