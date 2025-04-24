@@ -8,6 +8,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2", "ex2\ex2.csproj", "{006C509B-20D1-4BF2-97BB-34583AC6D9CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3", "ex3\ex3.csproj", "{3A41153E-E451-42DB-94AA-5A2BDA3EE5FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma de Números Pares de Um Array", "07 - Soma de Números Pares de Um Array\Soma de Números Pares de Um Array.csproj", "{38C8C4C6-0AFA-41B2-9657-B603400BDC8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
