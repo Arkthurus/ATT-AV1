@@ -1,23 +1,19 @@
 # ATT-AV1
-Atividade Avaliativa 1 
+Atividade Avaliativa 1 para a Matéria de Tópicos Especiais de Sistemas, Universidade Positivo
 
 
-INTEGRANTES:
+## INTEGRANTES:
 
-Arthur João Padilha Conci
-
-Lincoln M
-
-Thiago
+- Arthur João Padilha Conci
+- Lincoln Gabriel Sousa Matos
+- Thiago
 
 
-EXERCICIOS COMENTATOS/DETALHADOS:
+## EXERCICIOS COMENTATOS/DETALHADOS:
+- 1
+- x
 
-1
-
-x
-
-EXERCÍCIOS RESOLVIDOS:
+## EXERCÍCIOS RESOLVIDOS:
 
 1. Validador de Senhas Fortes 
 
