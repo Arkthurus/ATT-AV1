@@ -8,7 +8,7 @@ Atividade Avaliativa 1 para a Matéria de Tópicos Especiais de Sistemas, Univer
 - Lincoln Gabriel Sousa Matos
 - Thiago Amaral Costa
 
-## EXERCICIOS COMENTATOS/DETALHADOS:
+## EXERCICIOS COMENTADOS/DETALHADOS:
 - 1 - Validador de Senhas Fortes 
 - 2 - Tabuada Completa em Laço FOR
 
