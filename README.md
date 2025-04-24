@@ -6,8 +6,7 @@ Atividade Avaliativa 1 para a Matéria de Tópicos Especiais de Sistemas, Univer
 
 - Arthur João Padilha Conci
 - Lincoln Gabriel Sousa Matos
-- Thiago
-
+- Thiago Amaral Costa
 
 ## EXERCICIOS COMENTATOS/DETALHADOS:
 - 1
