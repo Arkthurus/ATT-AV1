@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Produto
 {
     public string Nome { get; set; }
-    public decimal Preco { get; set; }
+    public decimal Preço { get; set; }
     public int Quantidade { get; set; }
 }
 
@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        List<Produto> produtos = new List<Produto>();
+        List<produto> produtos = new List<produto>();
 
         for (int i = 0; i < 3; i++)
         {
@@ -25,14 +25,14 @@ class Program
             decimal preco;
             while (!decimal.TryParse(Console.ReadLine(), out preco))
             {
-                Console.Write("Por favor, insira um preço válido: ");
+                Console.Write("Por favor, insira um preço valido: ");
             }
 
             Console.Write("Quantidade: ");
             int quantidade;
             while (!int.TryParse(Console.ReadLine(), out quantidade))
             {
-                Console.Write("Por favor, insira uma quantidade válida: ");
+                Console.Write("Por favor, insira uma quantidade valida: ");
             }
 
             produtos.Add(new Produto { Nome = nome, Preco = preco, Quantidade = quantidade });

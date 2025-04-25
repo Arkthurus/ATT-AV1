@@ -1,43 +1,53 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
+using System.Text.RegularExpressions;
 
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("Verificador de palíndromos");
-        Console.WriteLine("Digite uma palavra ou frase:");
+        Console.WriteLine("Digite uma palavra ou frase para verificar se é um palíndromo:");
         string input = Console.ReadLine();
-        string cleanedInput = RemoveNonAlphanumeric(input).ToLower();
-        bool isPalindrome = IsPalindrome(cleanedInput);
+
+        string normalized = RemoveAcentos(input);
+
+        string cleaned = Regex.Replace(normalized, @"[^a-zA-Z0-9]", "").ToLower();
+
+        bool isPalindrome = IsPalindrome(cleaned);
 
         if (isPalindrome)
         {
-            Console.WriteLine("A frase ou palavra é um palíndromo.");
+            Console.WriteLine("A palavra/frase é um palíndromo.");
         }
         else
         {
-            Console.WriteLine("A frase ou palavra não é um palíndromo.");
+            Console.WriteLine("A palavra/frase não é um palíndromo.");
         }
     }
-    static string RemoveNonAlphanumeric(string str)
+
+    static string RemoveAcentos(string text)
     {
-        char[] arr = str.ToCharArray();
-        string result = "";
-        foreach (char c in arr)
+        var normalizedString = text.Normalize(NormalizationForm.FormD);
+        var stringBuilder = new StringBuilder();
+
+        foreach (var c in normalizedString)
         {
-            if (Char.IsLetterOrDigit(c))
+            if (CharUnicodeInfo.GetUnicodeCategory(c) != System.Globalization.UnicodeCategory.NonSpacingMark)
             {
-                result += c;
+                stringBuilder.Append(c);
             }
         }
-        return result;
+
+        return stringBuilder.ToString();
     }
-    static bool IsPalindrome(string str)
+
+    static bool IsPalindrome(string text)
     {
-        int len = str.Length;
+        int len = text.Length;
         for (int i = 0; i < len / 2; i++)
         {
-            if (str[i] != str[len - i - 1])
+            if (text[i] != text[len - i - 1])
             {
                 return false;
             }
