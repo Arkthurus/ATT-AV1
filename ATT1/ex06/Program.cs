@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        List<produto> produtos = new List<produto>();
+        List<Produto> produtos = new List<Produto>();
 
         for (int i = 0; i < 3; i++)
         {
@@ -45,7 +45,7 @@ class Program
         {
             decimal valorTotal = produto.Preco * produto.Quantidade;
             totalEstoque += valorTotal;
-            Console.WriteLine($"Nome: {produto.Nome}, Preço: {produto.Preco:C}, Quantidade: {produto.Quantidade}, Valor Total: {valorTotal:C}");
+            Console.WriteLine($"Nome: {produto.Nome}, Preco: {produto.Preco:C}, Quantidade: {produto.Quantidade}, Valor Total: {valorTotal:C}");
         }
 
         Console.WriteLine($"\nValor total em estoque: {totalEstoque:C}");
